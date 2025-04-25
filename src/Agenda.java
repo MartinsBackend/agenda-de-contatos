@@ -6,4 +6,7 @@ public class Agenda {
     public Agenda() {
         ListContatos = new ArrayList<>();
     }
+    public void AddContatos (Contatos Contato) {
+        ListContatos.add(Contato);
+    }
 }

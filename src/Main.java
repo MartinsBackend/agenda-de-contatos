@@ -13,5 +13,10 @@ public class Main {
 
         System.out.println("Digite seu gmail: ");
         String gmail = scanner.next();
-        }
+
+        Contatos contatos = new Contatos(nome, numero, gmail);
+        Magenda.AddContatos(contatos);
+
+        System.out.println("Seu contato foi adicionado com sucesso !!");
     }
+}
