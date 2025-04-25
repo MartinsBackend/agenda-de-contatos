@@ -1,11 +1,24 @@
 public class Contatos {
     String nome;
-    int número;
+    int numero;
     String gmail;
 
-    public Contatos(String nome, int número, String gmail) {
+    public Contatos(String nome, int numero, String gmail) {
         this.nome = nome;
-        this.número = número;
+        this.numero = numero;
         this.gmail = gmail;
     }
-}
+
+        public String getNome(){
+        return nome;
+        }
+
+        public int getNumero(){
+        return numero;
+        }
+
+        public String getGmail() {
+            return gmail;
+        }
+    }
+
